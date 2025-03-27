@@ -135,19 +135,23 @@ export default Restaurant;
   <summary>Click Here to view solution</summary>
 
 ```
-import { restaurants } from "./data/data.js";
+import { restaurants } from "../data/data.js";
 
 import Restaurant from "./Restaurant";
 
+//Higher-Order Components
 function RestaurantsContainer() {
   return (
     <div className="restaurantContainer">
-      {restaurants.map(restaurant => <Restaurant />)}
+      {restaurants.map((restaurant) => (
+        <Restaurant restaurant={restaurant} key={restaurant.id} />
+      ))}
     </div>
   );
 }
 
 export default RestaurantsContainer;
+
 
 
 ```
