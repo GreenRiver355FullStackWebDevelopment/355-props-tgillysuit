@@ -51,8 +51,13 @@ function Child(props){
 ```
 
 ## Lab Deliverables
+1. Set up
+- Navigate into your project folder: **cd props-and-events**
+- Install dependencies: **npm install**
+- Start the development server: **npm run dev**
+- Open your browser and go to **http://localhost:5173/** to view your app
 
-1. Create Container component
+2. Create Container component
 
 - Create a new file in the components folder called RestaurantsContainer.js.
 - Inside this file, create a function named RestaurantsContainer that returns a div.
