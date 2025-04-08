@@ -2,7 +2,7 @@ function Restaurant() {
 
   return (
     <div className="restaurant">
-  
+      
     </div>
   );
 }
